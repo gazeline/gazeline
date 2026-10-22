@@ -13,3 +13,7 @@ a { color: inherit; text-decoration-color: var(--accent); text-underline-offset:
 nav { display:flex; flex-wrap:wrap; gap: 6px 18px; margin: 12px 0 0; padding: 0 0 20px; border-bottom: 1px solid var(--line); font-size: 15px; }
 hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0 32px; }
 footer { margin-top: 56px; font-size: 14px; color: var(--muted); }
+.mark { display:flex; align-items:center; gap:14px; }
+.mark img { width:56px; height:56px; border-radius:13px; box-shadow:0 0 0 1px var(--line), 0 2px 6px rgba(0,0,0,.18); }
+.langs { margin: 14px 0 0; font-size: 15px; color: var(--muted); }
+.langs a { margin-right: 14px; }
